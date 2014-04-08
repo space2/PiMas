@@ -1,0 +1,169 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0302 
+header_name {.h} 
+code_name {.cpp}
+class MainUI {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window window {
+      label {PiMas - Pixel Master - (C) 2014 Pal Szasz} open
+      xywh {337 183 800 600} type Double align 80 size_range {800 600 0 0} visible
+    } {
+      Fl_Menu_Bar {} {open
+        xywh {0 0 800 25}
+      } {
+        Submenu {} {
+          label {&File} open
+          xywh {0 0 62 20}
+        } {
+          MenuItem menu_file_new {
+            label {&New}
+            xywh {0 0 31 20} shortcut 0x40006e
+          }
+          MenuItem menu_file_open {
+            label {&Open}
+            xywh {0 0 31 20} shortcut 0x40006f
+          }
+          MenuItem menu_file_save {
+            label {&Save}
+            xywh {0 0 31 20} shortcut 0x400073
+          }
+          MenuItem menu_file_saveas {
+            label {Save &as}
+            xywh {0 0 31 20} shortcut 0x410073 divider
+          }
+          MenuItem menu_file_exit {
+            label {E&xit}
+            xywh {0 0 31 20} shortcut 0x400071
+          }
+        }
+      }
+      Fl_Box workspace {selected
+        xywh {0 25 780 426} box DOWN_BOX
+        code0 {\#include "Workspace.h"}
+        class Workspace
+      }
+      Fl_Scrollbar scr_v {
+        xywh {780 25 20 445}
+      }
+      Fl_Scrollbar scr_h {
+        xywh {0 450 780 20} type Horizontal
+      }
+      Fl_Group {} {
+        label Tools open
+        xywh {0 470 200 90} box DOWN_BOX labelsize 10 align 17
+      } {
+        Fl_Button tool6 {
+          label {Slot\#0}
+          xywh {5 535 60 20} labelsize 10
+        }
+        Fl_Button tool3 {
+          label {Slot\#0}
+          xywh {5 510 60 20} labelsize 10
+        }
+        Fl_Button tool0 {
+          label {Slot\#0}
+          xywh {5 485 60 20} labelsize 10
+        }
+        Fl_Button tool7 {
+          label {Slot\#0}
+          xywh {70 535 60 20} labelsize 10
+        }
+        Fl_Button tool4 {
+          label {Slot\#0}
+          xywh {70 510 60 20} labelsize 10
+        }
+        Fl_Button tool1 {
+          label {Slot\#0}
+          xywh {70 485 60 20} labelsize 10
+        }
+        Fl_Button tool8 {
+          label {Slot\#0}
+          xywh {135 535 60 20} labelsize 10
+        }
+        Fl_Button tool5 {
+          label {Slot\#0}
+          xywh {135 510 60 20} labelsize 10
+        }
+        Fl_Button tool2 {
+          label {Slot\#0}
+          xywh {135 485 60 20} labelsize 10
+        }
+      }
+      Fl_Group {} {
+        label Inks open
+        xywh {600 470 200 90} box DOWN_BOX labelsize 10 align 17
+      } {
+        Fl_Button ink6 {
+          label {Slot\#0}
+          xywh {605 535 60 20} labelsize 10
+        }
+        Fl_Button ink3 {
+          label {Slot\#0}
+          xywh {605 510 60 20} labelsize 10
+        }
+        Fl_Button ink0 {
+          label {Slot\#0}
+          xywh {605 485 60 20} labelsize 10
+        }
+        Fl_Button ink7 {
+          label {Slot\#0}
+          xywh {670 535 60 20} labelsize 10
+        }
+        Fl_Button ink4 {
+          label {Slot\#0}
+          xywh {670 510 60 20} labelsize 10
+        }
+        Fl_Button ink1 {
+          label {Slot\#0}
+          xywh {670 485 60 20} labelsize 10
+        }
+        Fl_Button ink8 {
+          label {Slot\#0}
+          xywh {735 535 60 20} labelsize 10
+        }
+        Fl_Button ink5 {
+          label {Slot\#0}
+          xywh {735 510 60 20} labelsize 10
+        }
+        Fl_Button ink2 {
+          label {Slot\#0}
+          xywh {735 485 60 20} labelsize 10
+        }
+      }
+      Fl_Group {} {
+        label Palette open
+        xywh {200 470 400 90} box DOWN_BOX labelsize 10 align 17
+      } {
+        Fl_Box fav_colors {
+          label {(fav. colors)}
+          xywh {245 485 350 25} box BORDER_FRAME color 0
+        }
+        Fl_Box cur_color {
+          xywh {205 485 25 25} box BORDER_FRAME color 0
+        }
+      }
+      Fl_Group {} {
+        label Layers open
+        xywh {0 560 200 40} box DOWN_BOX labelsize 10 align 17
+      } {
+        Fl_Choice layers {open
+          xywh {5 575 130 20} down_box BORDER_BOX
+        } {}
+        Fl_Button layer_more {
+          label {@9->}
+          xywh {175 575 20 20}
+        }
+        Fl_Button layer_add {
+          label {@+}
+          xywh {135 575 20 20}
+        }
+        Fl_Button layer_del {
+          label {@1+}
+          xywh {155 575 20 20}
+        }
+      }
+    }
+  }
+} 

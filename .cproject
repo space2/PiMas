@@ -33,7 +33,7 @@
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fltk_png"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="z"/>
 								</option>
-								<option id="macosx.cpp.link.option.other.1386563713" superClass="macosx.cpp.link.option.other" valueType="stringList">
+								<option id="macosx.cpp.link.option.other.1386563713" name="Other options (-Xlinker [option])" superClass="macosx.cpp.link.option.other" valueType="stringList">
 									<listOptionValue builtIn="false" value="-framework"/>
 									<listOptionValue builtIn="false" value="ApplicationServices"/>
 									<listOptionValue builtIn="false" value="-framework"/>
@@ -47,6 +47,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug.1888066323" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug">
 								<option id="gnu.both.asm.option.include.paths.568763892" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.65659856" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -56,6 +57,7 @@
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.1346875522" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1337957806" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2065253283" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -64,6 +66,7 @@
 								<option id="gnu.c.compiler.macosx.exe.debug.option.debugging.level.1585364587" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1712404478" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1229803349" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -111,6 +114,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release.291002623" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release">
 								<option id="gnu.both.asm.option.include.paths.1300225647" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.618084001" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -120,6 +124,7 @@
 								<option id="gnu.cpp.compiler.macosx.exe.release.option.debugging.level.731708287" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.564185263" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2117678678" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -128,6 +133,7 @@
 								<option id="gnu.c.compiler.macosx.exe.release.option.debugging.level.1145662518" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.591664106" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PiMas/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.551332582" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>

@@ -8,7 +8,7 @@ class MainUI {open
   } {
     Fl_Window window {
       label {PiMas - Pixel Master - (C) 2014 Pal Szasz} open
-      xywh {337 183 800 600} type Double align 80 size_range {800 600 0 0} visible
+      xywh {337 183 800 600} type Double align 80 size_range {800 600 800 600} visible
     } {
       Fl_Menu_Bar {} {open
         xywh {0 0 800 25}

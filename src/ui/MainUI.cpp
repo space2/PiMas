@@ -136,7 +136,7 @@ Fl_Double_Window* MainUI::make_window() {
       } // Fl_Button* layer_del
       o->end();
     } // Fl_Group* o
-    window->size_range(800, 600);
+    window->size_range(800, 600, 800, 600);
     window->end();
   } // Fl_Double_Window* window
   return window;
